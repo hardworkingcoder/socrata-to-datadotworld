@@ -10,5 +10,10 @@ setup(
   download_url = 'https://github.com/hardworkingcoder/socrata-to-datadotworld/archive/0.1.tar.gz', # I'll explain this in a second
   keywords = ['data copying'], # arbitrary keywords
   classifiers = [],
-  scripts=['bin/socrata-to-datadotworld']
+  scripts=['bin/socrata-to-datadotworld'],
+  install_requires=[
+      'requests',
+      'datadotworld',
+      'click'
+  ],
 )
