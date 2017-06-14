@@ -1,5 +1,7 @@
 # socrata-to-datadotworld
 
+This script copies Socrata datasets to data.world with name, description, and license.
+
 Example of installing socrata-to-datadotworld and then copying https://data.seattle.gov/Transportation/Traffic-Flow-Counts/7svg-ds5z/data:
 
 ```
